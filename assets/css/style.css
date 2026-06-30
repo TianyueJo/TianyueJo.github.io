@@ -241,6 +241,30 @@ a:hover {
   padding-top: 0.15rem;
 }
 
+.timeline__school {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  margin-bottom: 0.5rem;
+}
+
+.timeline__logo {
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  object-fit: contain;
+}
+
+.timeline__logo--wide {
+  width: auto;
+  max-width: 88px;
+  height: 40px;
+}
+
+.timeline__school h3 {
+  margin: 0 0 0.2rem;
+}
+
 .timeline__content h3 {
   margin: 0 0 0.2rem;
   font-size: 1.1rem;
