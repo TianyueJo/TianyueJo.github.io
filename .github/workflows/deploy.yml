@@ -19,6 +19,7 @@ jobs:
         run: |
           mkdir -p _site/cv
           cp index.html .nojekyll _site/
+          cp google*.html _site/ 2>/dev/null || true
           cp -r assets figures _site/
           cp cv/tianyue.pdf _site/cv/
           rm -f _site/figures/*.HEIC
