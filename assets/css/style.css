@@ -329,6 +329,33 @@ a:hover {
   color: var(--text-muted);
 }
 
+/* Awards */
+.award-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.award-list li {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.5rem 1rem;
+  padding: 0.85rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.award-list li:last-child {
+  border-bottom: none;
+}
+
+.award-list__date {
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+
 /* Footer */
 .site-footer {
   padding: 2rem 0;
