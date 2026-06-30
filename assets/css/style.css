@@ -98,13 +98,63 @@ a:hover {
 
 .hero__photo-wrap {
   flex-shrink: 0;
+  width: 240px;
 }
 
 .hero__photo {
   display: block;
-  width: 240px;
+  width: 100%;
   height: auto;
   object-fit: contain;
+}
+
+.profile-links {
+  list-style: none;
+  margin: 1rem 0 0;
+  padding: 0;
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+}
+
+.profile-links li {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  margin-bottom: 0.55rem;
+  color: var(--text-muted);
+}
+
+.profile-links li:last-child {
+  margin-bottom: 0;
+}
+
+.profile-links a {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  color: var(--text-muted);
+  text-decoration: none;
+}
+
+.profile-links a:hover {
+  color: var(--text);
+  text-decoration: none;
+}
+
+.profile-links i {
+  flex-shrink: 0;
+  width: 1.1rem;
+  text-align: center;
+  font-size: 1rem;
+  color: var(--text);
+}
+
+.profile-links .fa-linkedin {
+  color: #0a66c2;
+}
+
+.profile-links .fa-github {
+  color: var(--text);
 }
 
 .hero__content {
@@ -132,25 +182,8 @@ a:hover {
 }
 
 .hero__bio {
-  margin: 0 0 1.25rem;
+  margin: 0;
   max-width: 42rem;
-}
-
-.hero__contact {
-  margin-bottom: 1.5rem;
-  font-family: var(--font-sans);
-  font-size: 0.9rem;
-  color: var(--text-muted);
-}
-
-.hero__contact .sep {
-  margin: 0 0.4rem;
-}
-
-.hero__links {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.75rem;
 }
 
 .btn {
@@ -403,12 +436,17 @@ a:hover {
     text-align: center;
   }
 
-  .hero__photo {
+  .hero__photo-wrap {
     width: 180px;
   }
 
-  .hero__links {
-    justify-content: center;
+  .profile-links {
+    text-align: left;
+    width: 100%;
+  }
+
+  .hero__photo {
+    width: 100%;
   }
 
   .pub--with-figure {
