@@ -102,7 +102,7 @@ a:hover {
 
 .hero__photo {
   display: block;
-  width: 220px;
+  width: 240px;
   height: auto;
   object-fit: contain;
 }
@@ -250,15 +250,15 @@ a:hover {
 
 .timeline__logo {
   flex-shrink: 0;
-  width: 52px;
-  height: 52px;
+  width: 68px;
+  height: 68px;
   object-fit: contain;
 }
 
 .timeline__logo--wide {
   width: auto;
-  max-width: 90px;
-  height: 42px;
+  max-width: 112px;
+  height: 54px;
 }
 
 .timeline__content h3 {
