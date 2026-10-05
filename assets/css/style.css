@@ -352,10 +352,6 @@ a:hover {
   background: #fff;
 }
 
-.pub__figure--wide {
-  width: 240px;
-}
-
 .pub__body {
   flex: 1;
   min-width: 0;
@@ -472,8 +468,7 @@ a:hover {
     flex-direction: column;
   }
 
-  .pub__figure,
-  .pub__figure--wide {
+  .pub__figure {
     width: 100%;
     max-width: 280px;
   }
